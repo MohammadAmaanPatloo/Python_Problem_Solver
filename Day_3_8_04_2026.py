@@ -23,9 +23,7 @@ def is_palindrome(text):
     return text == text[::-1]
 
 
-print(is_palindrome("madam"))    
-print(is_palindrome("Madam"))    
-print(is_palindrome("m adam"))    
-print(is_palindrome("a man a plan a canal panama"))    
-    
-
+print(is_palindrome("madam"))
+print(is_palindrome("Madam"))
+print(is_palindrome("m adam"))
+print(is_palindrome("a man a plan a canal panama"))

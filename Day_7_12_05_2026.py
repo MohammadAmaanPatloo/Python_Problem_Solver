@@ -31,6 +31,6 @@ def is_anagram(s, t):
     return sorted(s) == sorted(t)
 
 
-print(is_anagram("listen", "silent"))    # True
-print(is_anagram("hello", "world"))      # False
-print(is_anagram("triangle", "integral")) # True
+print(is_anagram("listen", "silent"))  # True
+print(is_anagram("hello", "world"))  # False
+print(is_anagram("triangle", "integral"))  # True

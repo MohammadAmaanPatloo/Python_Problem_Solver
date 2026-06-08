@@ -13,8 +13,9 @@ Output: 7
 
 """
 
+
 def largest_digit(Input):
     return max(int(digit) for digit in str(Input))
 
-print(largest_digit(42891))
 
+print(largest_digit(42891))

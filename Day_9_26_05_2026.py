@@ -38,11 +38,11 @@ def longest_common_prefix(strings):
     return prefix
 
 
-print(longest_common_prefix(["flower", "flow", "flight"]))  
+print(longest_common_prefix(["flower", "flow", "flight"]))
 # Output: "fl"
 
-print(longest_common_prefix(["dog", "racecar", "car"]))     
+print(longest_common_prefix(["dog", "racecar", "car"]))
 # Output: ""
 
-print(longest_common_prefix(["interview", "internet", "internal"]))  
+print(longest_common_prefix(["interview", "internet", "internal"]))
 # Output: "inter"

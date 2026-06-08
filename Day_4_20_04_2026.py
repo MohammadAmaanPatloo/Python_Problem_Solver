@@ -12,11 +12,11 @@ Output: 5
 """
 
 
-
 def most_frequent(Input):
-    freq={}
+    freq = {}
     for num in Input:
-        freq[num]=freq.get(num,0)+1
+        freq[num] = freq.get(num, 0) + 1
     return max(freq, key=freq.get)
-    
-print(most_frequent(Input=[1,2,3,2,1,2]))
+
+
+print(most_frequent(Input=[1, 2, 3, 2, 1, 2]))
