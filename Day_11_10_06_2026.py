@@ -1,3 +1,29 @@
+"""
+Problem Statement
+
+Given two sorted lists, merge them into a single sorted list.
+
+Example 1
+list1 = [1, 3, 5]
+list2 = [2, 4, 6]
+
+Output:
+[1, 2, 3, 4, 5, 6]
+Example 2
+list1 = [1, 2, 7]
+list2 = [3, 4, 5]
+
+Output:
+[1, 2, 3, 4, 5, 7]
+Example 3
+list1 = []
+list2 = [1, 2, 3]
+
+Output:
+[1, 2, 3]
+"""
+
+
 def merge_sorted_lists(list1, list2):
     merged = []
 
